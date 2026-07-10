@@ -1,0 +1,102 @@
+#37
+base = float(input("Enter base: "))
+height = float(input("Enter height: "))
+area = base * height
+print(area)
+
+#38
+import math
+
+radius = float(input("Enter radius: "))
+height = float(input("Enter height: "))
+
+volume = math.pi * radius ** 2 * height
+print(volume)
+
+#39
+side = float(input("Enter side: "))
+
+volume = side ** 3
+print(volume)
+
+#40
+fahrenheit = float(input("Enter temperature in Fahrenheit: "))
+
+celsius = (fahrenheit - 32) * 5 / 9
+print(celsius)
+
+#41
+celsius = float(input("Enter temperature in Celsius: "))
+
+fahrenheit = (celsius * 9 / 5) + 32
+print(fahrenheit)
+
+#42
+kilometers = float(input("Enter distance in kilometers: "))
+
+meters = kilometers * 1000
+print(meters)
+
+#43
+meters = float(input("Enter distance in meters: "))
+
+kilometers = meters / 1000
+print(kilometers)
+
+#44
+number = int(input("Enter a number: "))
+
+if number % 2 == 0:
+    print("Even")
+else:
+    print("Odd")
+
+#45
+number = float(input("Enter a number: "))
+
+if number > 0:
+    print("Positive")
+elif number < 0:
+    print("Negative")
+else:
+    print("Zero")
+
+#46
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+
+if num1 > num2:
+    print(num1)
+else:
+    print(num2)
+
+#47
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+
+if num1 < num2:
+    print(num1)
+else:
+    print(num2)
+
+#48
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+num3 = float(input("Enter third number: "))
+
+print(max(num1, num2, num3))
+
+#49
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+num3 = float(input("Enter third number: "))
+
+print(min(num1, num2, num3))
+
+#50
+year = int(input("Enter a year: "))
+
+if (year % 400 == 0) or (year % 4 == 0 and year % 100 != 0):
+    print("Leap Year")
+else:
+    print("Not Leap Year")
