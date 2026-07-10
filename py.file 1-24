@@ -1,0 +1,190 @@
+#1
+print("Hello World")
+
+#2
+print("Name:Md Sohan Amin")
+
+#3
+print("City:3no.Fakhirhat, 36no.ward, Agrabad")
+print("Post: Port-4100, Chittagong")
+
+#4
+print("name:Md sohan Amin")
+print("Age: 18 years old")
+print("District: Chittagong")
+print("Country: Bangladesh")
+
+#5
+print("Learning\nPython Programing")
+print("Institute:\tCox's Bazar Polytechnic institute")
+print("Iam a student of \"Computer Science Engineering\".")
+print("C:\\Python\\Projects")
+
+#6
+print("Name", "Md Sohan Amin", sep=":")
+print("100", "50", "30", sep=">")
+
+#7
+print("I\'ll", "Complete", end="")
+print(" my", "Diploma", end="")
+print(" in", "2026", "insha Allah")
+
+#8
+a =(int(input("Enter First Number:")))
+b =(int(input("Enter Second Number:")))
+sum = a + b
+print(sum)
+
+#9
+a =(int(input("Enter First Number:")))
+b =(int(input("Enter Second Number:")))
+sum = a - b
+print(sum)
+
+#10
+a =(int(input("Enter First Number:")))
+b =(int(input("Enter Second Number:")))
+multiplication = a*b
+print(multiplication)
+
+#11
+a =(int(input("Enter First Number:")))
+b =(int(input("Enter Second Number:")))
+division = a / b
+print(division)
+
+#12
+a =(int(input("Enter First Number:")))
+b =(int(input("Enter Second Number:")))
+remainder = a % b
+print(remainder)
+
+#13
+a =(int(input("Enter First Number:")))
+b =(int(input("Enter Second Number:")))
+average = (a+b) /2
+print(average)
+
+#14
+a =(int(input("Enter First Number:")))
+b =(int(input("Enter Second Number:")))
+c =(int(input("Enter Third Number:")))
+average = (a+b+c) /3
+print(average)
+
+#15
+first_num = int(input("Enter First Number: "))
+second_num = int(input("Enter Second Number: "))
+
+print("Before swapping: ")
+print("First Number =", first_num)
+print("Second Number =", second_num)
+
+temp = first_num
+first_num = second_num
+second_num = temp
+
+print("\nAfter swapping:")
+print("First Number =", first_num)
+print("Second Number =", second_num)
+
+#16
+first_num = int(input("Enter First Number: "))
+second_num = int(input("Enter Second Number: "))
+
+print("Before Swapping: ")
+print("First Number =", first_num)
+print("Second Number =", second_num)
+
+first_num = first_num + second_num
+second_num = first_num - second_num
+first_num = first_num - second_num
+
+print("\nAfter Swapping: ")
+print("First Number =", first_num)
+print("Second Number =", second_num)
+
+#17
+number = int(input("Enter a Number: "))
+
+float_number = float(number)
+
+print("Integer Value =", number)
+print("Float Value =", float_number)
+
+#18
+number = float(input("Enter a Number: "))
+
+integer_number = int(number)
+
+print("Float Value =", number)
+print("Integer Value =", integer_number)
+
+#19
+number = input("Enter a Number: ")
+
+integer_number = int(number)
+
+print("String Value =", number)
+print("Integer Value =", integer_number)
+
+#20
+student_name = "MD. Shohan Amin"  #str
+age = 19                          #int
+gpa = 3.75                        #float
+is_cse_student = True             #bool
+
+print("Data Type =", type(student_name))
+print("Data Type =", type(age))
+print("Data Type =", type(gpa))
+print("Data Type =", type(is_cse_student))
+
+#21
+first_number = int(input("Enter First Number: "))
+second_number = int(input("Enter Second Number: "))
+
+print("\nResults:")
+print("Addition =", first_number + second_number)
+print("Subtraction =", first_number - second_number)
+print("Multiplication =", first_number * second_number)
+print("Division =", first_number / second_number)
+print("Remainder =", first_number % second_number)
+
+#22
+score = 50
+print("Initial Score =", score)
+
+score += 10
+print("After Bonus Mark =", score)
+
+score -= 20
+print("After Penalty Mark =", score)
+
+score *= 2
+print("After Double Score =", score)
+
+score /= 4
+print("After Division =", score)
+
+score //= 3
+print("After Floor Division =", score)
+
+score %= 4
+print("After Modulo =", score)
+
+#23
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+
+if num1 == num2:
+    print("Equal")
+else:
+    print("Not Equal")
+
+#24
+num = int(input("Enter a number: "))
+
+if 0 < num < 100:
+    print("True")
+else:
+    print("False")
